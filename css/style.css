@@ -6,6 +6,8 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
+/*Menu górne*/
+
 header, footer {
     width: 100%;
     height: auto;
@@ -13,14 +15,15 @@ header, footer {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1000px;
+    min-width: 1000px;
     margin: 0 auto;
 }
 
 header {
-    background-color: black;
+    background-color: #000;
     color: #fff; 
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav {
@@ -36,7 +39,7 @@ nav li, div .logo {
 }
 
 .logo_green {
-    color: turquoise;
+    color: #24BA9F;
     font-weight: 700;
 }
 
@@ -100,3 +103,71 @@ li:hover > .submenu {
     margin-top: -30px;
     margin-left: 40px;
 }
+
+/*Sekcja 1 z fotelem ----------------------------------------------------*/
+
+.section1 {
+    background-color: #eaeaea;
+    /* IE9, iOS 3.2+ */
+    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%,color-stop(0, rgb(226, 226, 226)),color-stop(0, rgb(209, 209, 209)),color-stop(0.11, rgb(219, 219, 219)),color-stop(1, rgb(254, 254, 254)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(bottom,rgb(226, 226, 226) 0%,rgb(209, 209, 209) 0%,rgb(219, 219, 219) 11%,rgb(254, 254, 254) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to top,rgb(226, 226, 226) 0%,rgb(209, 209, 209) 0%,rgb(219, 219, 219) 11%,rgb(254, 254, 254) 100%);
+    background-image: -ms-repeating-linear-gradient(bottom,rgb(226, 226, 226) 0%,rgb(209, 209, 209) 0%,rgb(219, 219, 219) 11%,rgb(254, 254, 254) 100%);
+}
+.image1 {
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.image1 img {
+    width: 500px;
+    height: auto;
+}
+
+.article1 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.article1 h1 {
+    font-size: 25px;
+    
+}
+
+.article1 p {
+    padding-top: 30px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.button1 {
+    background-color: #24BA9F;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-top: 20px;
+    padding: 15px;
+    line-height: 20px;
+    width: 220px;
+    height: auto;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
