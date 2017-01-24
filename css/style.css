@@ -15,8 +15,8 @@ header, footer {
 }
 
 .container {
-    max-width: 1000px;
-    min-width: 1000px;
+    max-width: 1100px;
+    min-width: 1100px;
     margin: 0 auto;
 }
 
@@ -164,10 +164,58 @@ li:hover > .submenu {
     display: inline-block;
 }
 
+/*Sekcja 2 zdjęcia------------------------------------------------------*/
 
+.image2 {
+    float: left;
+    margin: 20px 15px 40px 25px;
+    z-index: 0;
+}
 
+.image3 {
+    float: left;
+    margin: 20px 15px 40px 15px;
+}
 
+.article2 {
+    border: 2px solid rgb(241,241,241);
+    height: 250px;
+    width: 329px;
+    float: left;
+    font-size: 14px;
+    margin: 20px 5px 40px 15px;
+    padding: 30px 20px;
+}
 
+.article2 h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
 
+h1.after:after {
+    width: 180px;
+    height: 8px;
+    content: "";
+    display: block;
+    background: #24BA9F;
+}
 
+.article2 p {
+    margin-top: 20px;
+}
 
+.transparent {
+    margin-top: -50px;
+    margin-left: 20px;
+    background-color: rgba(251, 251, 251, 0.60);
+    z-index: 1;
+}
+
+.section3 {
+    background-color: rgb(241,241,241);
+
+}
+
+.section3 h1 {
+    padding-top: 30px;
+}
