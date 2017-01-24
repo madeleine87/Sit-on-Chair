@@ -124,7 +124,6 @@ li:hover > .submenu {
     margin-bottom: 20px;
     margin-left: 50px;
 }
-
 .image1 img {
     width: 500px;
     height: auto;
@@ -169,18 +168,25 @@ li:hover > .submenu {
 .image2 {
     float: left;
     margin: 20px 15px 40px 25px;
-    z-index: 0;
+    background: url(../images/box1_img.jpg);
+    width: 330px;
+    height: 225px;
+    
 }
 
 .image3 {
     float: left;
     margin: 20px 15px 40px 15px;
+    background: url(../images/box2_img.jpg);
+    width: 330px;
+    height: 225px;
 }
+
 
 .article2 {
     border: 2px solid rgb(241,241,241);
+    width: 330px;
     height: 250px;
-    width: 329px;
     float: left;
     font-size: 14px;
     margin: 20px 5px 40px 15px;
@@ -193,7 +199,7 @@ li:hover > .submenu {
 }
 
 h1.after:after {
-    width: 180px;
+    width: 140px;
     height: 8px;
     content: "";
     display: block;
@@ -205,10 +211,11 @@ h1.after:after {
 }
 
 .transparent {
-    margin-top: -50px;
-    margin-left: 20px;
+    margin-top: 150px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
     background-color: rgba(251, 251, 251, 0.60);
-    z-index: 1;
 }
 
 .section3 {
