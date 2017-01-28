@@ -288,7 +288,7 @@ h1.after2 {
 
 .box-2 .circle {
     background-color: #24BA9F;
-    border: none;
+    border: 0;
 }
 
 .box-2 .dot {
@@ -318,7 +318,36 @@ h2 {
 
 .box-2 .price_circle {
     background-color: #fff;
-    border: none;
+}
+
+.price p, sup {
+    font-weight: 700;
+    color: rgb(194, 194, 194);
+}
+.price p:first-child {
+    font-size: 28px;
+}
+
+.price p:last-child {
+    font-size: 14px;
+}
+
+.price sup {
+    font-size: 10px;
+    top: -1.5em;
+}
+
+.price {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-2 .price p {
+    color: #24BA9F;
+}
+
+.box-2 .price sup {
+    color: #24BA9F;
 }
 
 .button2 {
@@ -356,6 +385,7 @@ h2 {
     text-align: center;
     padding: 10px;
     margin: 0 1px;
+    color: RGB(138,138,138);
 }
 
 .paragraph p:nth-child(odd) {
