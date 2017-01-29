@@ -168,6 +168,26 @@ li:hover > .submenu {
     display: inline-block;
 }
 
+.arrow {
+    color: #24BA9F;
+    width: 1100px;
+    height: 100%;
+    position: absolute;
+    font-size: 90px;
+    text-align: center;
+    line-height: 380px;
+}
+
+.arrow_left {
+    float: left;
+    margin-left: -500px;
+}
+
+.arrow_right {
+    float: right;
+    margin-left: 500px;
+}
+
 
 /*Sekcja 2 zdjęcia------------------------------------------------------*/
 
@@ -422,7 +442,7 @@ sup {
 
 form {
     width: 100%;
-    height: 460px;
+    height: 500px;
 }
 
 .form {
@@ -439,11 +459,27 @@ form {
 }
 
 .checkbox {
-    display: block;
-    width: 250px;
-    margin-top: 20px;    
-    color: RGB(138,138,138);
+    margin-top: 20px;
+    color: RGB(138, 138, 138);
     font-size: 18px;
+    display: block;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border: #24BA9F solid 1px;
+    border-radius: 5px;
+    display: table-cell;
+    margin-top: 10px;
+    background-image: url('../images/form_ok.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.description{
+    display: table-cell;    
+    padding-left: 15px;
 }
 
 .footer-image img {
@@ -472,6 +508,7 @@ form {
 .copyrights {
     float: left;
     color: RGB(138, 138, 138);
+    margin-top: 20px;
 }
 
 .socialmedia {
@@ -480,13 +517,13 @@ form {
 
 .socialmedia .logo {
     display: inline;
-    padding-left: 90px;
+    padding-left: 80px;
 }
 
 .socialmedia .logo {
     font-size: 18px;
     padding-bottom: 10px;
-    color: RGB(138,138,138);
+    color: RGB(138, 138, 138);
     font-weight: 400;
 }
 
