@@ -6,7 +6,6 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
-
 /*Menu górne*/
 
 header,
@@ -50,8 +49,13 @@ a {
     text-decoration: none;
 }
 
+
 a:visited {
     color: white;
+}
+
+a:hover {
+    color: #24BA9F;
 }
 
 .menu {
@@ -166,6 +170,10 @@ li:hover > .submenu {
     width: 220px;
     height: auto;
     display: inline-block;
+}
+
+a.button1:hover {
+    color: #000;
 }
 
 .arrow {
@@ -346,7 +354,7 @@ h2 {
     background-color: #fff;
 }
 
-.price p,
+.price p, 
 sup {
     font-weight: 700;
     color: rgb(194, 194, 194);
@@ -392,6 +400,10 @@ sup {
     border-radius: 5%;
     line-height: 20px;
     text-align: center;
+}
+
+a.button2:hover {
+    color: #000;
 }
 
 .box-2 .button2 {
@@ -503,6 +515,10 @@ form {
     border-radius: 5%;
     line-height: 20px;
     text-align: center;
+}
+
+a.button3:hover {
+    color: #000;
 }
 
 .copyrights {
