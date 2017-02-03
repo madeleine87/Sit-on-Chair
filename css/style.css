@@ -77,8 +77,8 @@ li:hover > .submenu {
     display: none;
     position: absolute;
     left: 10px;
-    top: 45px;
-    background-color: #000;
+/*    top: 45px;*/
+    
     padding: 0 5px;
 }
 
@@ -87,8 +87,9 @@ li:hover > .submenu {
 }
 
 .submenu li {
-    padding: 10px 15px 10px 15px;
+    padding: 15px;
     line-height: 10px;
+    background-color: #000;
 }
 
 .submenu li {
@@ -102,8 +103,10 @@ li:hover > .submenu {
     border-left: 20px solid rgba(0, 0, 0, 0);
     border-right: 20px solid rgba(0, 0, 0, 0);
     border-bottom: 20px solid #000;
-    margin-top: -30px;
-    margin-left: 40px;
+    margin-top: -21px;
+    margin-left: 37px;
+    background-color: transparent !important;
+    padding: 0px !important;
 }
 
 
