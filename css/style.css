@@ -6,8 +6,7 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
-
-/*Menu górne*/
+/*Menu górne ----------------------------*/
 
 header,
 footer {
@@ -17,8 +16,7 @@ footer {
 }
 
 .container {
-    max-width: 1100px;
-    min-width: 1100px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -26,13 +24,10 @@ header {
     background-color: #000;
     color: #fff;
     font-size: 16px;
+    padding: 10px;
 }
 
-nav {
-    margin: 10px;
-}
-
-nav .logo {
+header .logo {
     float: left;
 }
 
@@ -176,24 +171,47 @@ a.button1:hover {
     color: #000;
 }
 
-.arrow {
+.arr {
     color: #24BA9F;
-    width: 1100px;
-    height: 100%;
-    position: absolute;
     font-size: 90px;
-    text-align: center;
-    line-height: 380px;
 }
 
 .arrow_left {
     float: left;
-    margin-left: -500px;
+    margin-left: -50px;
+    margin-top: -200px;
+    cursor: pointer;
 }
 
 .arrow_right {
     float: right;
-    margin-left: 500px;
+    margin-right: -50px;
+    margin-top: -200px;
+    cursor: pointer;
+}
+
+
+/* Slider --------------------------------------------------------*/
+
+.slider ul {
+    list-style: none;
+}
+
+.slider li {
+    display: none;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.slider .visible {
+    display: inline-block;
+}
+
+.slider_img {
+    max-width: 1000px;
+    max-height: 370px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -709,7 +727,6 @@ form {
 .agreed label {
     font-size: 20px;
 }
-
 
 .button4 {
     width: 310px;

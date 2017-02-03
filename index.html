@@ -11,42 +11,54 @@
 
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <div class="logo">SIT <span class="logo_green">ON </span>CHAIR</div>
-                <div class="menu">
-                    <ul>
-                        <li><a href=''>O FIRMIE</a>
-                            <div class="submenu">
-                                <div class="triangle"></div>
-                                <ul>
-                                    <li><a href="">Aktualności</a></li>
-                                    <li><a href="">Nasz team</a></li>
-                                    <li><a href="">Historia</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="">GALERIA</a></li>
-                        <li><a href="">KONTAKT</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="container">
+            <div class="logo">SIT <span class="logo_green">ON </span>CHAIR</div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">O FIRMIE</a>
+                        <div class="submenu">
+
+                            <ul>
+                                <li class="triangle"></li>
+                                <li><a href="">Aktualności</a></li>
+                                <li><a href="">Nasz team</a></li>
+                                <li><a href="">Historia</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">GALERIA</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
     <section class="section1">
-        <div class="container">
-            <!--            <div class="arrow arrow_left">&lt;</div>-->
-            <div class="image1">
-                <img src="images/black_chair.png">
+        <div class="container slider">
+            <ul>
+                <li class="visible">
+                    <div class="image1">
+                        <img src="images/black_chair.png">
+                    </div>
+                    <div class="article1">
+                        <h1>SIT <span class="logo_green">ON</span> OUR <span class="logo_green">CHAIR</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus neque velit. Duis rhoncus erat lacinia tellus convallis, non placerat elit faucibus.
+                        </p>
+                        <a href="" class="button1">ZOBACZ WIĘCEJ</a>
+                    </div>
+                </li>
+                <li><img src="images/1.jpeg" class="slider_img"></li>
+                <li><img src="images/2.jpeg" class="slider_img"></li>
+                <li><img src="images/3.jpeg" class="slider_img"></li>
+                <li><img src="images/4.jpeg" class="slider_img"></li>
+                <li><img src="images/5.jpeg" class="slider_img"></li>
+                <li><img src="images/6.jpeg" class="slider_img"></li>
+            </ul>
+            <div class="arr">
+                <div id="nextPicture" class="arrow_right">&gt;</div>
+                <div id="prevPicture" class="arrow_left">&lt;</div>
             </div>
-            <div class="article1">
-                <h1>SIT <span class="logo_green">ON</span> OUR <span class="logo_green">CHAIR</span></h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus neque velit. Duis rhoncus erat lacinia tellus convallis, non placerat elit faucibus.
-                </p>
-                <a href="" class="button1">ZOBACZ WIĘCEJ</a>
-            </div>
-            <!--            <div class="arrow arrow_right">&gt;</div>-->
         </div>
     </section>
     <section class="section2">
@@ -211,11 +223,11 @@
                 </div>
                 <div class="footer-image">
                     <img src="images/red_chair.png">
-                     <div class="checkbox check-box agreed">
+                    <div class="checkbox check-box agreed">
                         <input type="checkbox" id="agreed" data-transport-price="200">
                         <label for="agreed">Zgadzam się na przetwarzanie danych osobowych</label>
                     </div>
-                   
+
                     <a href="" class="button4">WYŚLIJ</a>
                 </div>
             </form>
@@ -233,7 +245,8 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
-    <script src="js/style.js"></script>
+<script src="js/style.js"></script>
+
 </html>
