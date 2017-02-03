@@ -3,13 +3,16 @@ document.addEventListener("DOMContentLoaded", function () {
     /* Slider */
     slider();
 
-    /* Znikające divy na obrazku */
+    /* Toggle divs */
     hideDivs();
 
     /* Drop down list */
     addClicktoDdl();
-    
 
+    addChairsToSummary();
+    addColorToSummary();
+    addPatternToSummary();
+    addTransportToSummary();
 });
 
 /* Slider */
@@ -40,7 +43,7 @@ function slider() {
     });
 }
 
-/* Znikające divy na obrazku */
+/* Toggle divs */
 function hideDivs() {
     var image = document.querySelectorAll(".dis_child");
     for (i = 0; i < image.length; i++) {
@@ -74,4 +77,70 @@ function addClicktoDdl() {
             }
         });
     }
+}
+
+function addChairsToSummary() {
+    var chairs = document.querySelectorAll(".ddl_title li");
+    var myChoice = document.querySelector(".title");
+    var chairPrice = document.querySelector(".title.value");
+    for (i = 0; i < chairs.length; i++) {
+        chairs[i].addEventListener("click", function (event) {
+            myChoice.innerText = this.innerText;
+            chairPrice.innerText = 200;
+            calculateSum();
+        });
+    }
+}
+
+function addColorToSummary() {
+    var colors = document.querySelectorAll(".ddl_color li");
+    var myChoice2 = document.querySelector(".color");
+    var colorPrice = document.querySelector(".color.value");
+    for (i = 0; i < colors.length; i++) {
+        colors[i].addEventListener("click", function (event) {
+            myChoice2.innerText = this.innerText;
+            colorPrice.innerText = 40;
+            calculateSum();
+        });
+    }
+}
+
+function addPatternToSummary() {
+    var patterns = document.querySelectorAll(".ddl_pattern li");
+    var myChoice3 = document.querySelector(".pattern");
+    var patternPrice = document.querySelector(".pattern.value");
+    for (i = 0; i < patterns.length; i++) {
+        patterns[i].addEventListener("click", function (event) {
+            myChoice3.innerText = this.innerText;
+            patternPrice.innerText = 40;
+            calculateSum();
+        });
+    }
+}
+
+function addTransportToSummary() {
+    var transport = document.querySelector("#transport");
+    var myChoice4 = document.querySelector(".transport");
+    var transportPrice = document.querySelector(".transport.value");
+
+    transport.addEventListener("click", function (event) {
+        if (transport.checked) {
+            myChoice4.innerText = "Transport";
+            transportPrice.innerText = 50;
+        } else {
+            myChoice4.innerText = "";
+            transportPrice.innerText = "";
+        }
+        calculateSum();
+    });
+}
+
+function calculateSum() {
+    var chairPrice = document.querySelector(".title.value").innerText;
+    var colorPrice = document.querySelector(".color.value").innerText;
+    var patternPrice = document.querySelector(".pattern.value").innerText;
+    var transportPrice = document.querySelector(".transport.value").innerText;
+    var sum = document.querySelector(".sum");
+
+    sum.innerText = Number(chairPrice) + Number(colorPrice) + Number(patternPrice) + Number(transportPrice);
 }
