@@ -26,8 +26,6 @@ function slider() {
 
     next.addEventListener('click', function () {
         li[index].classList.remove('visible');
-        li[index].classList.remove('bounceInRight');
-        li[index].classList.remove('bounceInLeft');
         index++;
         if (index > li.length - 1) {
             index = 0;
