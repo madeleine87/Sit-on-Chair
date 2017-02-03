@@ -637,8 +637,6 @@ a.button3:hover {
     background-color: white;
     border: 1px solid #ccc;
     width: 288px;
-    padding-left: 15px;
-    padding-bottom: 10px;
     list-style: none;
     margin: 0;
     left: 0px;
@@ -649,15 +647,18 @@ a.button3:hover {
 }
 
 .list_panel li {
-    margin-top: 10px;
     cursor: pointer;
     color: #585858;
+    padding: 10px 0 10px 15px;
+}
+
+.list_panel li:hover {
+    background: RGB(228, 228, 228);
 }
 
 .title {
     height: 30px;
 }
-
 
 /* Footer --------------------------------------------------------- */
 
