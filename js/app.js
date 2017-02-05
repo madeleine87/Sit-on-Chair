@@ -88,7 +88,7 @@ function addChairsToSummary() {
     for (i = 0; i < chairs.length; i++) {
         chairs[i].addEventListener("click", function (event) {
             myChoice.innerText = this.innerText;
-            chairPrice.innerText = 200;
+            chairPrice.innerText = this.dataset.price;
             calculateSum();
         });
     }
@@ -101,7 +101,7 @@ function addColorToSummary() {
     for (i = 0; i < colors.length; i++) {
         colors[i].addEventListener("click", function (event) {
             myChoice2.innerText = this.innerText;
-            colorPrice.innerText = 40;
+            colorPrice.innerText = this.dataset.price;
             calculateSum();
         });
     }
@@ -114,7 +114,7 @@ function addPatternToSummary() {
     for (i = 0; i < patterns.length; i++) {
         patterns[i].addEventListener("click", function (event) {
             myChoice3.innerText = this.innerText;
-            patternPrice.innerText = 40;
+            patternPrice.innerText = this.dataset.price;
             calculateSum();
         });
     }
@@ -128,7 +128,7 @@ function addTransportToSummary() {
     transport.addEventListener("click", function (event) {
         if (transport.checked) {
             myChoice4.innerText = "Transport";
-            transportPrice.innerText = 50;
+            transportPrice.innerText = this.dataset.price;
         } else {
             myChoice4.innerText = "";
             transportPrice.innerText = "";
