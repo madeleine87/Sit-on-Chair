@@ -1,11 +1,6 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: Raleway, Arial, sans-serif;
 }
-
 
 /*Menu górne ----------------------------*/
 
@@ -100,7 +95,6 @@ li:hover > .submenu {
     padding: 0px !important;
 }
 
-
 /*Sekcja 1 z fotelem ----------------------------------------------------*/
 
 .section1 {
@@ -181,7 +175,6 @@ a.button1:hover {
     cursor: pointer;
 }
 
-
 /* Slider --------------------------------------------------------*/
 
 .slider {
@@ -204,7 +197,6 @@ a.button1:hover {
     display: block;
     margin: 0 auto;
 }
-
 
 /*Sekcja 2 zdjęcia------------------------------------------------------*/
 
@@ -256,7 +248,6 @@ a.button1:hover {
     padding-left: 15px;
     background-color: rgba(251, 251, 251, 0.60);
 }
-
 
 /*Sekcja 3 Cennik --------------------------------------------------*/
 
@@ -406,7 +397,6 @@ sup {
 a.button2:hover {
     color: #000;
 }
-
 
 /* Sekcja 4 Kalkulator -------------------------------------------------------*/
 
@@ -630,7 +620,6 @@ a.button3:hover {
         }
     }
 }
-
 
 /* Footer --------------------------------------------------------- */
 
