@@ -6,6 +6,7 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
+
 /*Menu górne ----------------------------*/
 
 header,
@@ -99,6 +100,7 @@ li:hover > .submenu {
     padding: 0px !important;
 }
 
+
 /*Sekcja 1 z fotelem ----------------------------------------------------*/
 
 .section1 {
@@ -119,11 +121,10 @@ li:hover > .submenu {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 50px;
-}
-
-.image1 img {
-    width: 500px;
-    height: auto;
+    img {
+        width: 500px;
+        height: auto;
+    }
 }
 
 .article1 {
@@ -134,16 +135,14 @@ li:hover > .submenu {
     margin-right: 200px;
     padding-top: 40px;
     text-align: center;
-}
-
-.article1 h1 {
-    font-size: 25px;
-}
-
-.article1 p {
-    padding-top: 30px;
-    font-size: 14px;
-    word-spacing: 2px;
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        padding-top: 30px;
+        font-size: 14px;
+        word-spacing: 2px;
+    }
 }
 
 .button1 {
@@ -182,21 +181,20 @@ a.button1:hover {
     cursor: pointer;
 }
 
-
 /* Slider --------------------------------------------------------*/
 
-.slider ul {
-    list-style: none;
-}
-
-.slider li {
-    display: none;
-    width: 100%;
-    padding: 20px 0;
-}
-
-.slider .visible {
-    display: inline-block;
+.slider {
+    ul {
+        list-style: none;
+    }
+    li {
+        display: none;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .visible {
+        display: inline-block;
+    }
 }
 
 .slider_img {
@@ -205,7 +203,6 @@ a.button1:hover {
     display: block;
     margin: 0 auto;
 }
-
 
 /*Sekcja 2 zdjęcia------------------------------------------------------*/
 
