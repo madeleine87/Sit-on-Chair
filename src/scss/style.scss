@@ -25,10 +25,9 @@ header {
     color: #fff;
     font-size: 16px;
     padding: 10px;
-}
-
-header .logo {
-    float: left;
+    .logo {
+        float: left;
+    }
 }
 
 nav li,
@@ -43,14 +42,12 @@ div .logo {
 
 a {
     text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: #24BA9F;
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        color: #24BA9F;
+    }
 }
 
 .menu {
@@ -78,20 +75,15 @@ li:hover > .submenu {
     position: absolute;
     left: 10px;
     padding: 0 5px;
-}
-
-.submenu ul {
-    padding: 10px 0;
-}
-
-.submenu li {
-    padding: 15px;
-    line-height: 10px;
-    background-color: #000;
-}
-
-.submenu li {
-    font-weight: normal;
+    ul {
+        padding: 10px 0;
+    }
+    li {
+        padding: 15px;
+        line-height: 10px;
+        background-color: #000;
+        font-weight: normal;
+    }
 }
 
 .triangle {
@@ -106,7 +98,6 @@ li:hover > .submenu {
     background-color: transparent !important;
     padding: 0px !important;
 }
-
 
 /*Sekcja 1 z fotelem ----------------------------------------------------*/
 
@@ -660,6 +651,7 @@ a.button3:hover {
 .title {
     height: 30px;
 }
+
 
 /* Footer --------------------------------------------------------- */
 
