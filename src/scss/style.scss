@@ -181,6 +181,7 @@ a.button1:hover {
     cursor: pointer;
 }
 
+
 /* Slider --------------------------------------------------------*/
 
 .slider {
@@ -203,6 +204,7 @@ a.button1:hover {
     display: block;
     margin: 0 auto;
 }
+
 
 /*Sekcja 2 zdjęcia------------------------------------------------------*/
 
@@ -230,11 +232,13 @@ a.button1:hover {
     font-size: 14px;
     margin: 20px 5px 40px 15px;
     padding: 30px 20px;
-}
-
-.article2 h1 {
-    font-size: 18px;
-    font-weight: 700;
+    h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 20px;
+    }
 }
 
 .after:after {
@@ -243,10 +247,6 @@ a.button1:hover {
     content: "";
     display: block;
     background: #24BA9F;
-}
-
-.article2 p {
-    margin-top: 20px;
 }
 
 .transparent {
@@ -263,6 +263,9 @@ a.button1:hover {
 .section3 {
     background-color: rgb(241, 241, 241);
     padding-bottom: 50px;
+    h1 {
+        padding-top: 30px;
+    }
 }
 
 h1.after2 {
@@ -276,10 +279,6 @@ h1.after2 {
     content: "";
     display: block;
     background: #24BA9F;
-}
-
-.section3 h1 {
-    padding-top: 30px;
 }
 
 .boxes {
@@ -325,15 +324,29 @@ h1.after2 {
 
 .box-2 {
     background-color: #24BA9F;
-}
-
-.box-2 .circle {
-    background-color: #24BA9F;
-    border: 0;
-}
-
-.box-2 .dot {
-    background-color: #fff;
+    .circle {
+        background-color: #24BA9F;
+        border: 0;
+    }
+    .dot {
+        background-color: #fff;
+    }
+    h2 {
+        color: #fff;
+    }
+    .price_circle {
+        background-color: #fff;
+    }
+    .price p {
+        color: #24BA9F;
+    }
+    .price sup {
+        color: #24BA9F;
+    }
+    .button2 {
+        background-color: #fff;
+        color: #24BA9F;
+    }
 }
 
 h2 {
@@ -341,10 +354,6 @@ h2 {
     margin-top: 30px;
     color: #24BA9F;
     font-size: 22px;
-}
-
-.box-2 h2 {
-    color: #fff;
 }
 
 .price_circle {
@@ -357,40 +366,25 @@ h2 {
     margin-bottom: 40px;
 }
 
-.box-2 .price_circle {
-    background-color: #fff;
-}
-
 .price p,
 sup {
     font-weight: 700;
     color: rgb(194, 194, 194);
 }
 
-.price p:first-child {
-    font-size: 28px;
-}
-
-.price p:last-child {
-    font-size: 14px;
-}
-
-.price sup {
-    font-size: 10px;
-    top: -1.5em;
-}
-
 .price {
     margin-top: 30px;
     margin-left: 30px;
-}
-
-.box-2 .price p {
-    color: #24BA9F;
-}
-
-.box-2 .price sup {
-    color: #24BA9F;
+    p:first-child {
+        font-size: 28px;
+    }
+    p:last-child {
+        font-size: 14px;
+    }
+    sup {
+        font-size: 10px;
+        top: -1.5em;
+    }
 }
 
 .button2 {
@@ -412,12 +406,6 @@ sup {
 a.button2:hover {
     color: #000;
 }
-
-.box-2 .button2 {
-    background-color: #fff;
-    color: #24BA9F;
-}
-
 
 /* Sekcja 4 Kalkulator -------------------------------------------------------*/
 
